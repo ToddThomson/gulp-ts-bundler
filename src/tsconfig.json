@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "diagnostics": true,
+    "listFiles": false,
+    "pretty": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitUseStrict": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "declaration": true,
+    "sourceMap": true,
+    "incremental": true,
+    "tsBuildInfoFile": "tsproject.tsbuildinfo",
+    "noEmit": false
+  },
+  "bundles": {
+    "tsproject": {
+      "files": [ "./TsProject.ts" ],
+      "config": {
+        "package": "component",
+        "packageNamespace": "TsBundler",
+        "outDir": "./bundle",
+        "minify": false
+      }
+    }
+  }
+}
