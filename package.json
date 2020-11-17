@@ -1,11 +1,11 @@
 {
   "name": "gulp-ts-bundler",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "author": "Todd Thomson <todd.thomson@me.com>",
   "description": "Typescript module bundler for gulp (Vinyl Adaptor)",
-  "main": "./lib/GulpTsBundler.js",
-  "types": "./lib/GulpTsBundler.d.ts",
-  "typings": "./lib/GulpTsBundler.d.ts",
+  "main": "./lib/TsBundler.js",
+  "types": "./lib/TsBundler.d.ts",
+  "typings": "./lib/TsBundler.d.ts",
   "engines": {
     "node": ">= 14.0.0"
   },
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.0.4",
+    "@types/gulp": "^4.0.7",
     "chai": "^4.2.0",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -58,7 +59,7 @@
   },
   "bugs": "https://github.com/toddthomson/gulp-ts-bundler/issues",
   "scripts": {
-    "build": "tsc --build ./src -v",
+    "build": "tsc --build ./src -v && gulp build",
     "clean": "tsc --build ./src --clean && gulp clean",
     "test": "mocha"
   }

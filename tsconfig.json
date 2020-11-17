@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es6",
-    "lib": ["es6"],
+    "target": "es5",
+    "moduleResolution": "Node",
+    "lib": ["es5"],
     "sourceMap": true
   },
   "exclude": [

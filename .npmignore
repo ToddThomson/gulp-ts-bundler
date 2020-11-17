@@ -9,6 +9,7 @@ tests
 .gitattributes
 .gitignore
 .npmignore
+.mocharc.json
 .travis.yml
 gulpfile.js
 tsconfig.json

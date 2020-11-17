@@ -5,7 +5,7 @@ import { ProjectOptions } from "./Project/ProjectOptions"
 
 export { ProjectOptions }
 
-export namespace GulpTsBundler
+export namespace TsBundler
 {
     export const version = "1.0.0-dev.1";
 
@@ -24,4 +24,4 @@ export namespace GulpTsBundler
 }
 
 // Nodejs module exports
-module.exports = GulpTsBundler;
+module.exports = TsBundler;

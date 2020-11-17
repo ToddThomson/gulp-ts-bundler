@@ -18,12 +18,12 @@
     "declaration": true,
     "sourceMap": true,
     "incremental": true,
-    "tsBuildInfoFile": "tsproject.tsbuildinfo",
+    "tsBuildInfoFile": "tsbundler.tsbuildinfo",
     "noEmit": false
   },
   "bundles": {
-    "tsproject": {
-      "files": [ "./TsProject.ts" ],
+    "tsbundler": {
+      "files": [ "./TsBundler.ts" ],
       "config": {
         "package": "component",
         "packageNamespace": "TsBundler",

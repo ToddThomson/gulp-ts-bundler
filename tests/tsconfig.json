@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "declaration": false,
+    "sourceMap": true,
+    "noLib": false,
+    "noEmitOnError": true,
+    "pretty": true,
+    "traceResolution": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false
+  },
+  "exclude": [
+    "projects"
+  ],
+
+  "compileOnSave": true
+}
